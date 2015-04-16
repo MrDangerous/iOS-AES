@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58C3955814C3E9D200BCE0D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C3955714C3E9D200BCE0D3 /* UIKit.framework */; };
+		58C3955A14C3E9D200BCE0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C3955914C3E9D200BCE0D3 /* Foundation.framework */; };
+		58C3955C14C3E9D200BCE0D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C3955B14C3E9D200BCE0D3 /* CoreGraphics.framework */; };
+		58C3956214C3E9D200BCE0D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58C3956014C3E9D200BCE0D3 /* InfoPlist.strings */; };
+		58C3956414C3E9D200BCE0D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3956314C3E9D200BCE0D3 /* main.m */; };
+		58C3956814C3E9D200BCE0D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3956714C3E9D200BCE0D3 /* AppDelegate.m */; };
+		58C3956B14C3E9D200BCE0D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3956A14C3E9D200BCE0D3 /* ViewController.m */; };
+		58C3956E14C3E9D200BCE0D3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C3956C14C3E9D200BCE0D3 /* ViewController.xib */; };
+		58C3957714C3EA0C00BCE0D3 /* Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3957614C3EA0C00BCE0D3 /* Encryption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58C3955314C3E9D200BCE0D3 /* AESEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C3955714C3E9D200BCE0D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58C3955914C3E9D200BCE0D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58C3955B14C3E9D200BCE0D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58C3955F14C3E9D200BCE0D3 /* AESEncryption-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AESEncryption-Info.plist"; sourceTree = "<group>"; };
+		58C3956114C3E9D200BCE0D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58C3956314C3E9D200BCE0D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58C3956514C3E9D200BCE0D3 /* AESEncryption-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AESEncryption-Prefix.pch"; sourceTree = "<group>"; };
+		58C3956614C3E9D200BCE0D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58C3956714C3E9D200BCE0D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58C3956914C3E9D200BCE0D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58C3956A14C3E9D200BCE0D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58C3956D14C3E9D200BCE0D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		58C3957514C3EA0C00BCE0D3 /* Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Encryption.h; path = Encryption/Encryption.h; sourceTree = "<group>"; };
+		58C3957614C3EA0C00BCE0D3 /* Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Encryption.m; path = Encryption/Encryption.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58C3955014C3E9D200BCE0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C3955814C3E9D200BCE0D3 /* UIKit.framework in Frameworks */,
+				58C3955A14C3E9D200BCE0D3 /* Foundation.framework in Frameworks */,
+				58C3955C14C3E9D200BCE0D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58C3954814C3E9D200BCE0D3 = {
+			isa = PBXGroup;
+			children = (
+				58C3955D14C3E9D200BCE0D3 /* AESEncryption */,
+				58C3955614C3E9D200BCE0D3 /* Frameworks */,
+				58C3955414C3E9D200BCE0D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58C3955414C3E9D200BCE0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58C3955314C3E9D200BCE0D3 /* AESEncryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C3955614C3E9D200BCE0D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58C3955714C3E9D200BCE0D3 /* UIKit.framework */,
+				58C3955914C3E9D200BCE0D3 /* Foundation.framework */,
+				58C3955B14C3E9D200BCE0D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58C3955D14C3E9D200BCE0D3 /* AESEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				58C3957414C3E9EF00BCE0D3 /* Encryption */,
+				58C3956614C3E9D200BCE0D3 /* AppDelegate.h */,
+				58C3956714C3E9D200BCE0D3 /* AppDelegate.m */,
+				58C3956914C3E9D200BCE0D3 /* ViewController.h */,
+				58C3956A14C3E9D200BCE0D3 /* ViewController.m */,
+				58C3956C14C3E9D200BCE0D3 /* ViewController.xib */,
+				58C3955E14C3E9D200BCE0D3 /* Supporting Files */,
+			);
+			path = AESEncryption;
+			sourceTree = "<group>";
+		};
+		58C3955E14C3E9D200BCE0D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58C3955F14C3E9D200BCE0D3 /* AESEncryption-Info.plist */,
+				58C3956014C3E9D200BCE0D3 /* InfoPlist.strings */,
+				58C3956314C3E9D200BCE0D3 /* main.m */,
+				58C3956514C3E9D200BCE0D3 /* AESEncryption-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58C3957414C3E9EF00BCE0D3 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				58C3957514C3EA0C00BCE0D3 /* Encryption.h */,
+				58C3957614C3EA0C00BCE0D3 /* Encryption.m */,
+			);
+			name = Encryption;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58C3955214C3E9D200BCE0D3 /* AESEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C3957114C3E9D200BCE0D3 /* Build configuration list for PBXNativeTarget "AESEncryption" */;
+			buildPhases = (
+				58C3954F14C3E9D200BCE0D3 /* Sources */,
+				58C3955014C3E9D200BCE0D3 /* Frameworks */,
+				58C3955114C3E9D200BCE0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESEncryption;
+			productName = AESEncryption;
+			productReference = 58C3955314C3E9D200BCE0D3 /* AESEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58C3954A14C3E9D200BCE0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 58C3954D14C3E9D200BCE0D3 /* Build configuration list for PBXProject "AESEncryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58C3954814C3E9D200BCE0D3;
+			productRefGroup = 58C3955414C3E9D200BCE0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C3955214C3E9D200BCE0D3 /* AESEncryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58C3955114C3E9D200BCE0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C3956214C3E9D200BCE0D3 /* InfoPlist.strings in Resources */,
+				58C3956E14C3E9D200BCE0D3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58C3954F14C3E9D200BCE0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C3956414C3E9D200BCE0D3 /* main.m in Sources */,
+				58C3956814C3E9D200BCE0D3 /* AppDelegate.m in Sources */,
+				58C3956B14C3E9D200BCE0D3 /* ViewController.m in Sources */,
+				58C3957714C3EA0C00BCE0D3 /* Encryption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58C3956014C3E9D200BCE0D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C3956114C3E9D200BCE0D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58C3956C14C3E9D200BCE0D3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C3956D14C3E9D200BCE0D3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58C3956F14C3E9D200BCE0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58C3957014C3E9D200BCE0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58C3957214C3E9D200BCE0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AESEncryption/AESEncryption-Prefix.pch";
+				INFOPLIST_FILE = "AESEncryption/AESEncryption-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58C3957314C3E9D200BCE0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AESEncryption/AESEncryption-Prefix.pch";
+				INFOPLIST_FILE = "AESEncryption/AESEncryption-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58C3954D14C3E9D200BCE0D3 /* Build configuration list for PBXProject "AESEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C3956F14C3E9D200BCE0D3 /* Debug */,
+				58C3957014C3E9D200BCE0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C3957114C3E9D200BCE0D3 /* Build configuration list for PBXNativeTarget "AESEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C3957214C3E9D200BCE0D3 /* Debug */,
+				58C3957314C3E9D200BCE0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58C3954A14C3E9D200BCE0D3 /* Project object */;
+}
